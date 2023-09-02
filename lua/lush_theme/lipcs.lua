@@ -96,7 +96,7 @@ local theme = lush(function()
 		Number({ Constant }), -- Number         xxx links to Constant
 		Boolean({ fg = "#ff80ff" }), -- Boolean        xxx links to Constant
 		luaConstant({ Constant }), -- luaConstant    xxx links to Constant
-		Identifier({ fg = "#40ffff" }), -- Identifier     xxx cterm=bold ctermfg=14 guifg=#40ffff
+		Identifier({ fg = "#ff6d6d" }), -- Identifier     xxx cterm=bold ctermfg=14 guifg=#40ffff
 		Function({ Identifier }), -- Function       xxx links to Identifier
 		NvimIdentifier({ Identifier }), -- NvimIdentifier xxx links to Identifier
 		netrwVersion({ Identifier }), -- netrwVersion   xxx links to Identifier
