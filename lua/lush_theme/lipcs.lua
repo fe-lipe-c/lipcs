@@ -76,7 +76,7 @@ local theme = lush(function()
 		RedrawDebugRecompose({ bg = "red" }), -- RedrawDebugRecompose xxx ctermbg=9 guibg=Red
 		Cursor({ bg = "green", fg = "black" }), -- Cursor         xxx guifg=Black guibg=Green
 		lCursor({ bg = "cyan", fg = "black" }), -- lCursor        xxx guifg=Black guibg=Cyan
-		Normal({ bg = "grey15", fg = "white" }), -- Normal         xxx ctermfg=15 ctermbg=242 guifg=White guibg=grey20
+		Normal({ bg = "grey15", fg = hsl("#FFFFFF") }), -- Normal         xxx ctermfg=15 ctermbg=242 guifg=White guibg=grey20
 		NvimSpacing({ Normal }), -- NvimSpacing    xxx links to Normal
 		FloatShadow({ blend = 80, bg = "black" }), -- FloatShadow    xxx guibg=Black blend=80
 		FloatShadowThrough({ blend = 100, bg = "black" }), -- FloatShadowThrough xxx guibg=Black blend=100
